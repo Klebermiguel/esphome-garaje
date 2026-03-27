@@ -1,0 +1,24 @@
+esphome:
+  name: esp-garaje
+
+esp32:
+  board: esp32dev
+
+wifi:
+  ssid: "Winterfell"
+  password: "KleberyYesi2612."
+
+logger:
+
+api:
+
+ota:
+
+esp32_ble_tracker:
+  scan_parameters:
+    interval: 1100ms
+    window: 1100ms
+    active: true
+
+bluetooth_proxy:
+  active: true
